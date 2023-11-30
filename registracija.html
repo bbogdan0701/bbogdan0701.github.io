@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="srb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mailto:bogdan.bogdanovic.8.23@ict.edu.rs">
+    <meta name="keywords" content="Tehnicki, Pregled, Boki, Bor, Vozila, Automobila, Registracija">
+    <meta name="description" content="Registrujte vozilo kod iskusnih, na najbrži i najjednostavniji način.">
+    <meta name="copyright" content="D.O.O. BOKI, All rights Reserved">
+    <title>Registracija Vozila - Tehnički Pregled Boki Bor</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/registracija.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<body>
+    <div id="okvir">
+          <div id="logo">
+            <a href="index.html"><img src="img/logo.jpg" alt="Logo" /></a> 
+          </div>
+          <div class="mesto">
+            <i class="fa-solid fa-location"></i>
+            <span>Ulica Milana Vasića<br/>Perice 1, Bor</span>
+          </div>
+          <div class="mesto">
+            <i class="fa-solid fa-clock"></i>
+            <span>Radnim danima<br/>od 07:00 do 15:00</span>
+          </div>
+          <div class="mesto">
+            <i class="fa-solid fa-phone"></i>
+            <span>063-1111-222<br/>065-7777-888</span>
+          </div>
+    </div>
+     <div id="lista">
+           <ul>
+             <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+             <li><a href="tehnicki.html">TEHNIČKI</a></li>
+             <li><a href="registracija.html" id="current-page">REGISTRACIJA</a</li>
+             <li><a href="karton.html">KARTON</a></li>
+             <li><a href="vulkanizerska.html">VULKANIZERSKA</a></li>
+             <li><a href="galerija.html">GALERIJA</a></li>
+             <li><a href="autor.html">O AUTORU</a></li>
+           </ul>
+    </div>
+  </div>
+    <div class="registracija-article max-width">
+       <div id="registracija-naslov">
+          <h1>REGISTRACIJA<br/>VOZILA</h1>
+       </div>   
+     <div class="wrapper vertical">
+     <div id="registracija-pasus">
+        <br/>
+        <p>Višegodišnje iskustvo u oblasti registracije vozila i procedure oko nje. 
+            Na najbrži i najjednostavniji način, a pritom na jednom mestu, kompletno 
+            registrujte Vaše vozilo i uštedite vreme i novac. Obavite kod nas 
+            Tehnički pregled i sve administrativne operacije i uplate za registraciju vozila.
+        </p>
+        
+        <br/>
+        <h2>ŠTA SVE MOŽETE OBAVITI KOD NAS?</h2>
+        <p>Naša kancelarija vam može pomoći u rešavanju svih administrativno pravnih 
+            poslova u vezi sa registracijom i kupoprodajom vozila a onda ćemo ukoliko 
+            je potrebno na liniji našeg tehničkog pregleda proveriti ispravnost Vašeg vozila.
+        </p>
+        <hr/>
+        <span id="form-text"><strong>Zakazivanje registracije možete uraditi putem
+            poziva ili putem elektronske forme. Mi preporučujemo da vršite putem telefona 
+            kako bismo Vas detaljno uputili u kompletnu proceduru koju smo maksimalno 
+            pojednostavili i kako biste se informisali oko troškova.
+            <br/><br/>
+            Cena tehničkog pregleda iznosi 4000 dinara do kraja godine (6000 dinara od početka 2024. godine). 
+        </strong></span>
+      </div>
+     </div>
+    </div>  
+    <div class="wrapper max-width horizontal wrapBorder">
+      <div id="slika"></div>
+      <div class="forma">
+          <form action="action.php" method="POST">
+            <div class="wrapper">
+              <div class="vertical sekcijaForm">
+                <div class="formElement">
+                  <label for="tbIme">Ime:<span>*</span></label> <br/>
+                  <input type="text" id="tbIme" name="tbIme" required />
+                </div>
+                <br/>
+                <div class="formElement">
+                  <label>Prezime:<span>*</span></label> <br/>
+                  <input type="text" id="tbPrezime" name="tbPrezime" required />
+                </div>
+                <br/>
+                <div class="formElement">
+                  <label for="tbVreme">Vreme:<span>*</span></label> <br/>
+                  <input type="time" id="tbVreme" name="tbVreme" min="07:00" max="15:00" required/>
+                </div>
+                <br/>
+                <div class="formElement">
+                  <label>Datum:<span>*</span></label> <br/>
+                  <input type="date" id="tbDatum" name="tbDatum" min="2023-12-01" required/>
+                </div>
+                <br/>
+                <div class="formElement">
+                  <label>Broj telefona:<span>*</span></label> <br/>
+                  <input type="tel" id="tbTelefon" name="tbTelefon" placeholder="+381" required />
+                </div>
+                <br/>
+                <div class="formElement">
+                  <label>Marka/Model/Godina:<span>*</span></label> <br/>
+                  <input type="text" id="tbPrezime" name="tbPrezime" placeholder="Fiat/Punto/2005" required />
+                </div>
+              </div>
+              <div class="vertical sekcijaForm">
+                <div class="formElement">
+                  <label>Tip tehničkog:<span>*</span></label> <br/>
+                  <input type="radio" id="godisnji" name="Tehnicki" value="godisnji" checked="checked" /> Godišnji <br/>
+                  <input type="radio" id="sestomesecni" name="Tehnicki" value="sestomesecni"  /> Šestomesečni
+                </div>
+                <div class="formElement">
+                  <label>Da li je nosivost vozila<br/>preko 3,5 tone?:<span>*</span></label> <br/>
+                  <input type="radio" id="da" name="nosivost35" value="da" /> Da
+                  <input type="radio" id="ne" name="nosivost35" value="ne" checked="checked" /> Ne
+                </div>
+                <div class="formElement">
+                  <label>Saobraćajna i tablice:</label> <br/>
+                  <input type="checkbox" id="saobracajna" name="saobracajna" value="saobracajna" /> Potrebna mi je nova saobraćajna<br/>
+                  <input type="checkbox" id="tablice" name="tablice" value="tablice" /> Potrebne su mi nove tablice
+                </div>
+               <div class="formElement Dugme">
+                 <input type="submit" id="submit" name="submit" value="Prijava" />
+               </div>
+              </div>
+            </div>  
+          </form>
+      </div>  
+    </div> 
+    <div id="footer">
+       <div class="social-media">
+          <a href="https://www.facebook.com" target="_blank"><i id="facebook" class="social-okvir fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i id="linkedin" class="social-okvir fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i id="instagram" class="social-okvir fa-brands fa-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i id="x" class="social-okvir fa-brands fa-x-twitter"></i></a>
+          <a href="xml/sitemap.xml" target="_blank"><i id="sitemap" class="social-okvir fa fa-sitemap"></i></a>
+          <a href="xml/rss.xml" target="_blank"><i id="rss" class="social-okvir fa fa-rss"></i></a>
+       </div>
+       <div id="copyright">&copy;D.O.O. BOKI, All rights reserved.</div>
+    </div> 
+       
+</body>
+</html>

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html, body, .max-width, #lista li{
+    margin: auto;
+}
+html, body{
+    max-width: 100%;
+    background-color: #ddd;
+    overflow-x: clip;
+}
+.max-width{
+    max-width: 1000px;
+}
+div{position: relative;}
+i, .mesto span{
+    font-size: 25px;
+}
+i{
+    margin: 10px auto;
+    color:#fff;
+}
+#okvir{
+    justify-content: space-around;
+}
+#okvir,
+.social-media{
+    flex-direction: row;
+}
+#okvir,
+.ikona{
+    background-color: blue;
+}
+#l
+#okvir{
+    height: 120px;
+    justify-content: space-evenly;
+    gap: 15px;
+    border-bottom: 5px solid #0030a1;
+}
+#okvir,
+.mesto,
+#footer,
+.social-media{
+    align-items: center;
+}
+#logo,
+#logo img,
+#kontakt{
+    height: 70px;
+}
+#logo, 
+#logo img{
+    width: 180px; 
+}
+#kontakt{
+    width: 215px;
+}
+#kontakt li{
+    padding: 15px 8px;
+    margin-left: 22px;
+}
+#okvir,
+.mesto,
+#footer{
+    align-content: center;
+}
+.mesto,
+#footer{
+    flex-direction: column;
+}
+.mesto,
+#footer{
+    gap: 10px;
+}
+.mesto{
+    width: 250px;
+}
+#lista li a{
+    text-decoration: none;
+}
+#okvir,
+.mesto,
+#wrapper,
+#footer,
+.social-media{
+    display: flex;
+}
+.mesto span, 
+#okvir,
+#lista, 
+#lista li,
+#lista li a, 
+#kontakt li,
+.social-media a i{
+    text-align: center;
+}
+.mesto span,
+#lista li, 
+#kontakt li{
+    font-weight: bold;
+}
+#okvir,
+#lista,
+#main,
+.social-media{
+    width: 100%;
+}
+.mesto span,
+#lista li a,
+#tehnicki-naslov h1{
+    color: #fff;
+}
+.ikona,
+#lista{
+    top: 0px;
+}
+#lista,
+#footer,
+#tehnicki-naslov{
+    background-color: #023abe;
+}
+#lista{
+    position: sticky;
+    z-index: 1;
+}
+#lista li{
+    padding: 15px 20px;
+}
+#lista li, #kontakt li{
+    font-size: 23px;
+    list-style-type: none;
+    display: inline-block;
+    color: #eee;
+}
+#lista li a#current-page{
+    color: #aaa;
+}
+#lista ul li a:hover,
+#lista ul li a i:hover{
+    color: #aaa;
+}   
+/* Tehnički */
+hr{
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+}
+#slika{
+    margin-top: 62px;
+    background-image: url(../img/tpboki-mehanicar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tehnicki-article{
+    height: 1250px;
+}
+#tehnicki-naslov{
+    margin: auto;
+    width: 40%;
+    height: 135px;
+    border-radius: 15px 15px;
+    animation-name: naslov;
+    animation-duration: 1.5s;
+}
+#tehnicki-naslov h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    word-wrap: break-word, normal;
+}
+#tehnicki-pasus h2{
+    text-align: left;
+    font-size: 30px;
+    padding-top: 55px;
+    word-wrap: break-word, normal;
+}
+#tehnicki-pasus{
+    width: 60%;
+    height: 800px;
+    text-align: left;
+}
+#tehnicki-pasus p{
+    margin: 5px auto;
+}
+#tehnicki-pasus ul{
+    margin-left: 50px;
+}
+#tehnicki-pasus ul li:last-child{
+    margin-bottom: 45px;
+}
+#razmak{
+    margin-top: 45px;
+}
+/* Tehnički */
+.ikona,
+.ikona i{
+    position: absolute;
+}
+.ikona,
+#copyright{
+    color: white;
+}
+.social-media{
+    justify-content: center;
+}
+.ikona{
+    left: 35px;
+}
+.ikona{
+    width: 80px;
+    height: 80px;
+}
+.ikona i{
+    font-size: 40px;
+    top: 9px;
+    left: 20px;
+}
+.social-media a i{
+    font-size: 20px;
+}
+#facebook{
+    background-color: #001e63;
+}
+#footer{
+    width:100%;
+    height:70px;
+    padding: 10px 0px;
+}
+.social-okvir{
+    width: 20px;
+    height: 20px;
+}
+#slika{
+    width: 480px;
+    height: 320px;
+    border: 1px solid #000;
+}
+.social-media a i{
+    margin: 0px 5px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    top: 19px;
+}
+#linkedin{
+    background-color: rgb(47, 108, 241);
+}
+#x{
+    background-color: #000;
+}
+#instagram{
+    background-color: #5F92B2;
+}
+#rss{
+    background-color: #F56505;
+}
+#sitemap{
+    background-color: #629EEC;
+}
+@keyframes naslov{
+    from{
+        opacity: 0%; 
+    }
+    to{
+        opacity: 100%;
+    }
+}

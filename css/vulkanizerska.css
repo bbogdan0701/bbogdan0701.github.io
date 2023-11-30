@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html, 
+body,
+.max-width,
+#vulkanizerska, 
+#lista li{
+    margin: auto;
+}
+html, 
+body{
+    max-width: 100%;
+    overflow-x: clip;
+    background-color: #ddd;
+}
+.max-width{
+    max-width: 1000px;
+}
+div, video{position: relative;}
+i, .mesto span{
+    font-size: 25px;
+}
+i{
+    margin: 10px auto;
+    color:#fff;
+}
+#okvir{
+    justify-content: space-around;
+}
+#okvir,
+.social-media{
+    flex-direction: row;
+}
+#okvir,
+.ikona{
+    background-color: blue;
+}
+#l
+#okvir{
+    height: 120px;
+    justify-content: space-evenly;
+    gap: 15px;
+    border-bottom: 5px solid #0030a1;
+}
+#okvir,
+.mesto,
+#footer,
+.social-media{
+    align-items: center;
+}
+#logo,
+#logo img,
+#kontakt{
+    height: 70px;
+}
+#logo, 
+#logo img{
+    width: 180px; 
+}
+#kontakt{
+    width: 215px;
+}
+#kontakt li{
+    padding: 15px 8px;
+    margin-left: 22px;
+}
+#okvir,
+.mesto,
+#footer{
+    align-content: center;
+}
+.mesto,
+#footer{
+    flex-direction: column;
+}
+.mesto,
+#footer{
+    gap: 10px;
+}
+.mesto{
+    width: 250px;
+}
+#lista li a{
+    text-decoration: none;
+}
+.vulkanizerskaWrap{
+    margin: 10px auto;
+}
+#vulkanizerska-radnja{
+    margin: 20px auto;
+}
+#vulkanizerskaWrap{
+    width: 100%;
+    height: 920px;
+    justify-content: center;
+}
+#vulkanizerska-naslov{
+    background-color: #023abe;
+    margin: auto;
+    width: 35%;
+    height: 130px;
+    border-radius: 15px 15px;
+    animation-name: naslov;
+    animation-duration: 1.5s;
+}
+#vulkanizerska{
+    margin-top: 10px;
+}
+hr{
+    margin: 40px auto;
+    border: 1px solid #000;
+}
+#vulkanizerska-naslov h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    word-wrap: break-word, normal;
+    color: #fff;
+    
+}
+#vulkanizerskaPasus{
+    width: 55%;
+}
+#vulkanizerskaSlika{
+    width: 45%;
+}
+.vulkanizerskaWrap{
+    width: 100%;
+    margin: 20px auto;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-around;
+}
+.dimenzija{
+    width: 480;
+    height: 320px;
+    border: 1px solid #000;
+}
+.slika1{
+    background-image: url(../img/vulkanizerska2.jpg);
+}
+.slika2{
+    background-image: url(../img/vulkanizerska3.jpg);
+}
+.slika1,
+.slika2{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#okvir,
+.mesto,
+#footer,
+.social-media,
+.vulkanizerskaWrap{
+    display: flex;
+}
+.mesto span, 
+#okvir,
+#lista, 
+#lista li,
+#lista li a,
+#vulkanizerska-naslov, 
+#kontakt li,
+.social-media a i{
+    text-align: center;
+}
+.mesto span,
+#lista li, 
+#kontakt li{
+    font-weight: bold;
+}
+#okvir,
+#lista,
+#main,
+.social-media{
+    width: 100%;
+}
+.mesto span,
+#lista li a{
+    color: #fff;
+}
+.ikona{
+    top: 0px;
+}
+#lista,
+#footer{
+    background-color: #023abe;
+}
+#lista{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#lista li{
+    padding: 15px 20px;
+}
+#lista li, #kontakt li{
+    font-size: 23px;
+    list-style-type: none;
+    display: inline-block;
+    color: #eee;
+}
+.ikona,
+.ikona i{
+    position: absolute;
+}
+.ikona,
+#copyright{
+    color: white;
+}
+.social-media{
+    justify-content: center;
+}
+.ikona{
+    left: 35px;
+}
+.ikona{
+    width: 80px;
+    height: 80px;
+}
+.ikona i{
+    font-size: 40px;
+    top: 9px;
+    left: 20px;
+}
+.social-media a i{
+    font-size: 20px;
+}
+#facebook{
+    background-color: #001e63;
+}
+#footer{
+    width:100%;
+    height:70px;
+    padding: 10px 0px;
+}
+.social-okvir{
+    width: 20px;
+    height: 20px;
+}
+.social-media{
+    float: right;
+}
+.social-media a i{
+    margin: 0px 5px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    top: 19px;
+}
+#linkedin{
+    background-color: rgb(47, 108, 241);
+}
+#x{
+    background-color: #000;
+}
+#instagram{
+    background-color: #5F92B2;
+}
+#rss{
+    background-color: #F56505;
+}
+#lista ul li a:hover,
+#lista ul li a i:hover{
+    color: #aaa;
+}   
+#lista li a#current-page{
+    color: #aaa;
+}
+#sitemap{
+    background-color: #629EEC;
+}
+@keyframes naslov{
+    from{
+        opacity: 0%; 
+    }
+    to{
+        opacity: 100%;
+    }
+}

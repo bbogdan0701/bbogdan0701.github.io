@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*,
+form label{
+    font-family: 'Roboto', sans-serif;
+}
+html, 
+body, 
+.max-width, 
+#lista li,
+#registracija-naslov{
+    margin: auto;
+}
+html, body{
+    max-width: 100%;
+    background-color: #ddd;
+    overflow-x: clip;
+}
+.max-width{
+    max-width: 1000px;
+}
+div{position: relative;}
+i, .mesto span{
+    font-size: 25px;
+}
+i{
+    margin: 10px auto;
+    color:#fff;
+}
+#okvir{
+    justify-content: space-around;
+}
+#okvir,
+.social-media{
+    flex-direction: row;
+}
+#okvir,
+.ikona{
+    background-color: blue;
+}
+#okvir{
+    height: 120px;
+    gap: 15px;
+}
+#okvir,
+.mesto,
+#footer,
+.social-media{
+    align-items: center;
+}
+#logo,
+#logo img,
+#kontakt{
+    height: 70px;
+}
+#logo, 
+#logo img{
+    width: 180px; 
+}
+#kontakt{
+    width: 215px;
+}
+#kontakt li{
+    padding: 15px 8px;
+    margin-left: 22px;
+}
+#okvir,
+.mesto,
+#footer{
+    align-content: center;
+}
+.mesto,
+#footer{
+    flex-direction: column;
+}
+.mesto,
+#footer{
+    gap: 10px;
+}
+.mesto{
+    width: 250px;
+}
+#lista li a{
+    text-decoration: none;
+}
+#okvir,
+.mesto,
+.wrapper,
+#footer,
+.sekcijaForm,
+.social-media{
+    display: flex;
+}
+#okvir,
+.wrapper,
+.sekcijaForm{
+    justify-content: space-evenly;
+}
+.vertical{
+    flex-direction: column;
+}
+.vertical,
+#slika{
+    margin-bottom: 50px;
+    padding: 8px 0px;
+}
+.horizontal{
+    flex-direction: row;
+}
+.mesto span, 
+#okvir,
+#lista, 
+#lista li,
+#lista li a, 
+#kontakt li,
+.social-media a i{
+    text-align: center;
+}
+.mesto span,
+#lista li, 
+#kontakt li{
+    font-weight: bold;
+}
+#okvir,
+#lista,
+#main,
+.social-media{
+    width: 100%;
+}
+.mesto span,
+#lista li a,
+#registracija-naslov h1,
+#submit[value="Prijava"]{
+    color: #fff;
+}
+.ikona,
+#lista{
+    top: 0px;
+}
+#lista,
+#footer,
+#registracija-naslov{
+    background-color: #023abe;
+}
+#lista{
+    position: sticky;
+    z-index: 1;
+}
+#lista li{
+    padding: 15px 20px;
+}
+#lista li, #kontakt li{
+    font-size: 23px;
+    list-style-type: none;
+    display: inline-block;
+    color: #eee;
+}
+#lista li a#current-page{
+    color: #aaa;
+}
+#lista ul li a:hover,
+#lista ul li a i:hover{
+    color: #aaa;
+}   
+/* Registracija */
+hr{
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    margin: 30px auto;
+}
+.registracija-article{
+    height: 500px;
+}
+#slika{
+    width: 400px;
+    background-image: url(../img/registracija-vozila-boki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#registracija-naslov{
+    width: 35%;
+    height: 135px;
+    border-radius: 15px 15px;
+    animation-name: naslov;
+    animation-duration: 1.5s;
+}
+#registracija-naslov h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    word-wrap: break-word, normal;
+}
+#registracija-pasus h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    word-wrap: break-word, normal;
+}
+#registracija-pasus{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+#registracija-pasus p{
+    margin: 5px auto;
+}
+/* Registracija */
+/* Forma */
+.forma,
+#slika{
+    height: 380px;
+}
+#slika{
+    height: 386px;
+}
+.forma{
+    width: 500px;
+    height: 400px;
+    border: 2px solid #023abe;
+    border-radius: 10px;
+}
+.formElement label{
+    text-align: justify;
+}
+.sekcijaForm{
+    align-items:space-between;
+}
+.formElement label,
+.formElement span,
+.formElement input{
+    font-size: 18px;
+}
+.formElement input[type="text"]{
+    width: 180px;
+}
+.formElement input[type="time"],
+.formElement input[type="date"],
+.formElement input[type="tel"]{
+    width: 160px;
+    padding-right: 20px;
+}
+#submit[value="Prijava"]{
+    margin-top: 45px;
+    padding: 10px;
+    margin-left: 85px;
+    background-color: #023abe;
+    border-radius: 10px;
+}
+#submit[value="Prijava"]:hover{
+    background-color: #000;
+}
+.formElement span{
+    color: #f00;
+}
+.alignCentar{
+    align-items: flex-start;
+}
+.pozicija-levo{
+    justify-content: flex-start;
+}
+
+/* Forma */
+.ikona,
+.ikona i{
+    position: absolute;
+}
+.ikona,
+#copyright{
+    color: white;
+}
+.social-media{
+    justify-content: center;
+}
+.ikona{
+    left: 35px;
+}
+.ikona{
+    width: 80px;
+    height: 80px;
+}
+.ikona i{
+    font-size: 40px;
+    top: 9px;
+    left: 20px;
+}
+.social-media a i{
+    font-size: 20px;
+}
+#facebook{
+    background-color: #001e63;
+}
+#footer{
+    width:100%;
+    height:70px;
+    padding: 10px 0px;
+}
+.social-okvir{
+    width: 20px;
+    height: 20px;
+}
+.social-media a i{
+    margin: 0px 5px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    top: 19px;
+}
+#linkedin{
+    background-color: rgb(47, 108, 241);
+}
+#x{
+    background-color: #000;
+}
+#instagram{
+    background-color: #5F92B2;
+}
+#rss{
+    background-color: #F56505;
+}
+#sitemap{
+    background-color: #629EEC;
+}
+@keyframes naslov{
+    from{
+        opacity: 0%; 
+    }
+    to{
+        opacity: 100%;
+    }
+}
